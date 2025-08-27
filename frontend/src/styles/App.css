@@ -1,0 +1,271 @@
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a1f44;
+    padding: 1rem 2rem;
+    color: white;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #f5a524;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #f5a524;
+  }
+  
+  /* Hero */
+  .inicio-container .hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #f5a524;
+    color: #0a1f44;
+  }
+  
+  .inicio-container .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .inicio-container .hero p {
+    font-size: 1.2rem;
+  }
+  
+  /* Features */
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #e0e0e0;
+  }
+  
+  .feature {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .feature h2 {
+    color: #0a1f44;
+    margin-bottom: 0.5rem;
+  }
+  
+  .feature p {
+    color: #333;
+  }
+  
+  /* Productos */
+  .productos-container {
+    padding: 2rem;
+  }
+  
+  .productos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .producto-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+  }
+  
+  .producto-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0,0,0,0.15);
+  }
+  
+  /* Servicios */
+  .servicios-container {
+    padding: 2rem;
+  }
+  
+  .servicios-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .servicio-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Contacto */
+  .contacto-container {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .contacto-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .contacto-container input,
+  .contacto-container textarea {
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .contacto-container button {
+    padding: 0.8rem;
+    background-color: #0a1f44;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .contacto-container button:hover {
+    background-color: #f5a524;
+    color: #0a1f44;
+  }
+  
+  .success {
+    color: green;
+    margin-bottom: 1rem;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #0a1f44;
+    color: white;
+    margin-top: 2rem;
+  }
+  
+
+  /* Productos */
+.productos-container {
+    max-width: 700px;
+    margin: 50px auto;
+    background: #1a1a1a;
+    padding: 30px;
+    border-radius: 12px;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  }
+  
+  .productos-titulo {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #f5a623;
+  }
+  
+  .productos-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .productos-form input {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    flex: 1;
+    min-width: 120px;
+    font-size: 1rem;
+  }
+  
+  .btn {
+    background: #f5a623;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #1a1a1a;
+    font-weight: bold;
+    transition: 0.2s;
+  }
+  
+  .btn:hover {
+    background: #ffb84d;
+  }
+  
+  .cancelar {
+    background: #888;
+    color: #fff;
+  }
+  
+  .productos-lista {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .productos-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2a2a2a;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 6px;
+  }
+  
+  .productos-acciones button {
+    margin-left: 5px;
+    font-size: 0.9rem;
+  }
+  
+  .editar {
+    background: #4caf50;
+    color: #fff;
+  }
+  
+  .editar:hover {
+    background: #66bb6a;
+  }
+  
+  .borrar {
+    background: #e53935;
+    color: #fff;
+  }
+  
+  .borrar:hover {
+    background: #f55a4e;
+  }
+  
